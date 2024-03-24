@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --s-core: 0.06rem;
+  --s-dot: 0.65rem;
+  --s-bg: 1.35rem;
+  --p-bg: calc(var(--s-bg) / 2);
+  --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+}
+
+div {
+  @apply bg-white contrast-[50] after:block after:w-screen after:h-screen after:bg-4 after:bg-halftone after:bg-repeat-round after:bg-dot;
+}
+
+div::after {
+  mask-image: var(--mask);
+}

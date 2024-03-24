@@ -1,0 +1,20 @@
+{
+  "name": "halftone-pattern",
+  "version": "0.1.0",
+  "description": "A sample of the pattern obtained using tailwind.",
+  "keywords": [],
+  "homepage": "https://github.com/hedge-code/halftone-pattern#readme",
+  "bugs": {
+    "url": "https://github.com/hedge-code/halftone-pattern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedge-code/halftone-pattern.git"
+  },
+  "author": "HedgeCode <contact.hedgecode@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./tailwind.min.css --watch",
+    "build": "npx tailwindcss -i ./tailwind.css -o ./tailwind.min.css"
+  }
+}
