@@ -11,7 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         halftone:
-          "radial-gradient(circle at center, black var(--s-core), transparent var(--s-dot)), radial-gradient(circle at center, black var(--s-core), transparent var(--s-dot))",
+          "radial-gradient(circle at center, rgb(var(--c-gradient)) var(--s-core), transparent var(--s-dot)), radial-gradient(circle at center, rgb(var(--c-gradient)) var(--s-core), transparent var(--s-dot))",
       },
     },
   },

@@ -7,7 +7,8 @@
   --s-dot: 0.65rem;
   --s-bg: 1.35rem;
   --p-bg: calc(var(--s-bg) / 2);
-  --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+  --mask: radial-gradient(circle at center, rgb(0 0 0 / .55), rgb(0 0 0 / .99));
+  --c-gradient: 0 0 0;
 }
 
 div {
